@@ -1,5 +1,5 @@
 var SERVER_NAME = 'patient-api'
-var PORT = process.env.PORT;
+var PORT = process.env.PORT ||8080;
 
 
 var restify = require('restify')
